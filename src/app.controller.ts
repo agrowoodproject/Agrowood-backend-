@@ -1,6 +1,6 @@
 import { Controller, Get, Post, Body } from '@nestjs/common';
 
-let leads = [];
+let leads: any[] = [];
 
 @Controller()
 export class AppController {
